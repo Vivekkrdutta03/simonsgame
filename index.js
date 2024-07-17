@@ -4,7 +4,7 @@ var red = [$("#red"), new song("red")];
 var yellow = [$("#yellow"), new song("yellow")];
 var blue = [$("#blue"), new song("blue")];
 var started = false;
-var currentLevel = 2;
+var currentLevel = 1;
 var array = [];
 var userinteraction = false;
 var buttons = document.querySelectorAll(".btn");
@@ -55,7 +55,7 @@ $(".btn").on("click", function () {
     );
     started = false;
     currentButton = 0;
-    currentLevel = 2;
+    currentLevel = 1;
     array.length = 0;
     return;
   }
